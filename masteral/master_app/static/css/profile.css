@@ -1,0 +1,88 @@
+/* for navbar image aims */
+
+#aims {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Reset some default styles */
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #4285f4;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 20px;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-me,
+.contact-info {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4285f4;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+}
+
+
+/* Add more animations and styles as needed */
