@@ -63,3 +63,41 @@
     transition: transform 0.3s ease-in-out;
     /* Smooth transition on transform property */
 }
+
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+    .inside {
+        display: block !important;
+        width: 100% !important;
+    }
+    .one {
+        width: 100% !important;
+    }
+    .two {
+        width: 100% !important;
+    }
+    .accordion,
+    .accordion-item,
+    .accordion-header,
+    .accordion-button,
+    .accordion-collapse,
+    .accordion-body {
+        width: 100% !important;
+    }
+    .title2 {
+        font-size: 20px !important;
+    }
+    .container {
+        width: 100%;
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .navbar-brand {
+        width: 100%;
+        display: flex !important;
+    }
+    #aims {
+        margin: auto;
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
